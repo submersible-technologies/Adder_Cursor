@@ -8,6 +8,7 @@
     "render:addercursor-electricsheen": "npx cbmp -d 'svg' -n 'AdderDot-ElectricSheen' -bc '#99D5FF' -oc '#1E304C'",
     "render:addercursor-laurellamina": "npx cbmp -d 'svg' -n 'AdderDot-LaurelLamina' -bc '#092120' -oc '#7DB38F'",
     "render:addercursor-barcalonaoxblood": "npx cbmp -d 'svg' -n 'AdderDot-BarcalonaOxblood' -bc '#4C1E38' -oc '#CFD7E6'",
+
     "render": "yarn render:addercursor-cloudkiss && yarn render:addercursor-secretaryblonde && yarn render:addercursor-electricsheen && yarn render:addercursor-laurellamina && yarn render:addercursor-barcalonaoxblood",
     
     "build:addercursor-cloudkiss": "ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'",
@@ -15,6 +16,7 @@
     "build:addercursor-electricsheen": "ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake → Deep Sea Blue dot cursor, inspired by Adder Inds.'",
     "build:addercursor-laurellamina": "ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald → Laurel Green dot cursor, inspired by Adder Inds.'",
     "build:addercursor-barcalonaoxblood": "ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood → Tearsoaked White dot cursor, inspired by Adder Inds.'",
+    
     "build": "yarn build:addercursor-cloudkiss && yarn build:addercursor-secretaryblonde && yarn build:addercursor-electricsheen && yarn build:addercursor-laurellamina && yarn build:addercursor-barcalonaoxblood"
   }
 }
