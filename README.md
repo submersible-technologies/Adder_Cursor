@@ -1,25 +1,22 @@
-# Google Cursor
+# Adder Cursor
 
-An OpenSource cursor theme inspired by Google.
-
-[![Build](https://github.com/ful1e5/Google_Cursor/workflows/build/badge.svg)](https://github.com/ful1e5/Google_Cursor/actions?query=workflow%3Abuild)
+An open-source dot-cursor theme, inspired by Adder Inds. Original "Google_Cursor" by ful1e5.
 
 ## Notes
 
--   All cursor's SVG files are found in [svg](./svg) directory or you can also find them on
-    [Figma](https://www.figma.com/file/i7nfGDWCTWlNJlnhmvHDfh/Google-Cursor?node-id=0%3A1).
-
-<!-- If you're interested, you can learn more about "sponsor-spotlight" on
- https://dev.to/ful1e5/lets-give-recognition-to-those-supporting-our-work-on-github-sponsors-b00 -->
-
-![shoutout-sponsors](https://sponsor-spotlight.vercel.app/sponsor?login=ful1e5)
+-   All cursor's SVG files are found in [svg](./svg) directory, or you can also find them on
+    [Figma](https://www.figma.com/file/i7nfGDWCTWlNJlnhmvHDfh/Adder-Cursor?node-id=0%3A1).
 
 ---
 
-![GoogleDot Blue](https://imgur.com/osnWiED.png)
-![GoogleDot Black](https://i.imgur.com/9ZlC1gD.png)
-![GoogleDot White](https://i.imgur.com/67KgJ3s.png)
-![GoogleDot Red](https://imgur.com/VtauWGC.png)
+*todo: cursor preview goes here*
+<!-- 
+![AdderDot Blue](https://imgur.com/osnWiED.png)
+![AdderDot Black](https://i.imgur.com/9ZlC1gD.png)
+![AdderDot White](https://i.imgur.com/67KgJ3s.png)
+![AdderDot Red](https://imgur.com/VtauWGC.png)
+-->
+<!-- CloudKiss SecretaryBlonde ElectricSheen LaurelLamina BarcalonaOxblood -->
 
 ## Cursor Sizes
 
@@ -47,71 +44,59 @@ An OpenSource cursor theme inspired by Google.
 
 ## Colors:
 
-### GoogleDot Blue
+### Cloudkiss
 
--   Base Color - `#4285F4` (Blue)
+-   Base Color - `#1ACCD9` (Electric blue)
 -   Outline Color - `#FFFFFF` (White)
 
-### GoogleDot Black
+### Secretary Blonde
 
--   Base Color - `#000000` (Black)
--   Outline Color - `#FFFFFF` (White)
+-   Base Color - `#F9FC94` (Bright yellow)
+-   Outline Color - `#051D2B` (Deep blue)
 
-### GoogleDot White
+### Electric Sheen
 
--   Base Color - `#FFFFFF` (Black)
--   Outline Color - `#000000` (White)
+-   Base Color - `#99D5FF` (Navy Blue)
+-   Outline Color - `#1E304C` (Light pastel blue)
 
-### GoogleDot Red
+### Laurel Lamina
 
--   Base Color - `#FF0000` (Red)
--   Outline Color - `#FFFFFF` (White)
+-   Base Color - `#092120` (Deep Green)
+-   Outline Color - `#7DB38F` (Light pastel green)
+
+### Barcalona Oxblood
+
+-   Base Color - `#4C1E38` (Deep reddish purple)
+-   Outline Color - `#CFD7E6` (Light grey)
+
 
 ## How to get it
 
 ### Easiest Way
 
-You can download latest `stable` & `development` releases from
-[Release Page](https://github.com/ful1e5/Google_Cursor/releases).
+You can download latest `stable` & `development` releases from the [Release Page](https://github.com/fsubmersible-technologies/Adder_Cursor/releases).
 
 ### Packages
 
-> **Note**
-> If you're having trouble with the packages please submit a request to the package maintainer
-> before creating an issue.
+Haha, I mean, if *you* wanna package it, go for it. We'll make an AUR package at some point, but we ain't gonna maintain it for much else.
 
-#### Arch Linux/Manjaro
-
-Arch Linux/Manjaro users can install from the [AUR](https://aur.archlinux.org/packages/googledot-cursor-theme)
-currently maintained by [_@yochananmarqos_](https://aur.archlinux.org/packages/?K=yochananmarqos&SeB=m).
-Can be installed via Pamac (preinstalled in Manjaro), Paru or any other
-[AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers).
-
-```bash
-paru -S googledot-cursor-theme
-```
-
-#### Nix/NixOS
-
-Nix users can install from the [package in nixpkgs](https://search.nixos.org/packages?channel=unstable&buckets=%7B%22package_attr_set%22%3A%5B%5D%2C%22package_license_set%22%3A%5B%5D%2C%22package_maintainers_set%22%3A%5B%22Henry%20Hiles%22%5D%2C%22package_platforms%22%3A%5B%5D%7D&query=google_cursor) (Maintained by [@Henry-Hiles](https://github.com/Henry-Hiles)). Installation instructions can be found by clicking on the title of the [nix package](https://search.nixos.org/packages?channel=unstable&buckets=%7B%22package_attr_set%22%3A%5B%5D%2C%22package_license_set%22%3A%5B%5D%2C%22package_maintainers_set%22%3A%5B%22Henry%20Hiles%22%5D%2C%22package_platforms%22%3A%5B%5D%7D&query=google_cursor). The nix package is currently **only** available in unstable.
-
-## Installing Google Cursor
+## Installing Adder Cursor
 
 #### Linux/X11
 
 **Installation:**
 
 ```bash
-tar -xvf GoogleDot-Blue.tar.gz                # extract `GoogleDot-Blue.tar.gz`
-mv GoogleDot-* ~/.icons/                      # Install to local users
-sudo mv GoogleDot-* /usr/share/icons/         # Install to all users
+tar -xvf AdderDot-VenomousBlue.tar.gz                # extract `AdderDot-VenomousBlue.tar.gz`
+mv AdderDot-* ~/.icons/                      # Install to local users
+sudo mv AdderDot-* /usr/share/icons/         # Install to all users
 ```
 
 **Uninstallation:**
 
 ```bash
-rm ~/.icons/GoogleDot-*                       # Remove from local users
-sudo rm /usr/share/icons/GoogleDot-*          # Remove from all users
+rm ~/.icons/AdderDot-*                       # Remove from local users
+sudo rm /usr/share/icons/AdderDot-*          # Remove from all users
 ```
 
 #### Windows
@@ -122,7 +107,7 @@ sudo rm /usr/share/icons/GoogleDot-*          # Remove from all users
 2. Open unziped directory in Explorer, and **right click** on `install.inf`.
 3. Click 'Install' from the context menu, and authorize the modifications to your system.
 4. Open Control Panel > Personalization and Appearance > Change mouse pointers,
-   and select **Google Cursors**.
+   and select **Adder Cursors**.
 5. Click '**Apply**'.
 
 **Uninstallation:**
@@ -135,7 +120,7 @@ Run the `uninstall.bat` script packed with the `.zip` archive
 2. Expand `HKEY_CURRENT_USER` folder and expand `Control Panel` folder.
 3. Go to `Cursors` folder and click on `Schemes` folder - all the available custom cursors that are
    installed will be listed here.
-4. **Right Click** on the name of cursor file you want to uninstall; for eg.: _Google Cursors_ and
+4. **Right Click** on the name of cursor file you want to uninstall; for eg.: _Adder Cursors_ and
    click `Delete`.
 5. Click '**yes**' when prompted.
 
@@ -143,13 +128,13 @@ Run the `uninstall.bat` script packed with the `.zip` archive
 
 #### Notes
 
--   Google Cursor build configuration and cursor hotspot settings are bundled in the `build.toml` file.
+-   Adder Cursor build configuration and cursor hotspot settings are bundled in the `build.toml` file.
 -   Check out the scripts section in [package.json](./package.json) to see how we build the cursor theme,
     excluding the render scripts. They are useful for converting `.svg` files to `.png` files.
 -   yarn is optional, For building XCursors and Windows cursors from `.png` files or resizing them
-    you don't need that. If you want to develop/modify Google Cursor's colors, and bitmaps, or generate a png
+    you don't need that. If you want to develop/modify Adder Cursor's colors, and bitmaps, or generate a png
     file from a svg, Then you can use yarn because bitmapper is written in TypeScript.
--   Since Google Cursor variants are designed similarly, they share the same hotspot settings so a
+-   Since Adder Cursor variants are designed similarly, they share the same hotspot settings so a
     single configuration file `build.toml` is responsible for building all variants. Due to this, you will have
     to change the following options in `ctgen` to build the appropriate variant:
     -   **-d**: bitmaps directory
@@ -166,9 +151,9 @@ Run the `uninstall.bat` script packed with the `.zip` archive
 ### Quick start
 
 1. Install [build prerequisites](#build-prerequisites) on your system
-2. `git clone https://github.com/ful1e5/Google_Cursor`
-3. `cd Google_Cursor && yarn build`
-4. See [Installing Google Cursor](#installing-google-cursor).
+2. `git clone https://github.com/submersible-technologies/Adder_Cursor`
+3. `cd Adder_Cursor && yarn build`
+4. See [Installing Adder Cursor](#installing-adder-cursor).
 
 ### Building
 
@@ -182,13 +167,14 @@ customize sizes, target platform, and etc. with the `ctgen` CLI (packed with `cl
 
 #### `yarn build` aberration
 
-Here are the default commands we used to build the Google Cursor's variants and packed them into `yarn build`:
+Here are the default commands we used to build the Adder Cursor's variants and packed them into `yarn build`:
 
 ```bash
-ctgen build.toml -d 'bitmaps/GoogleDot-Blue' -n 'GoogleDot-Blue' -c 'Blue cursor theme inspired on Google'
-ctgen build.toml -d 'bitmaps/GoogleDot-Black' -n 'GoogleDot-Black' -c 'Black cursor theme inspired on Google'
-ctgen build.toml -d 'bitmaps/GoogleDot-White' -n 'GoogleDot-White' -c 'White cursor theme inspired on Google'
-ctgen build.toml -d 'bitmaps/GoogleDot-Red' -n 'GoogleDot-Red' -c 'Red cursor theme inspired on Google'
+    ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
+    ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde → Deep Blue-Green dot cursor, inspired by Adder Inds.'
+    ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake → Deep Sea Blue dot cursor, inspired by Adder Inds.'
+    ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald → Laurel Green dot cursor, inspired by Adder Inds.'
+    ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood → Tearsoaked White dot cursor, inspired by Adder Inds.'
 ```
 
 Afterwards, the themes can be found in the `themes` directory.
@@ -208,13 +194,13 @@ To build Windows cursor with size `16`:
 > be considered in build.
 
 ```bash
-ctgen build.toml -s 16 -p windows -d 'bitmaps/GoogleDot-Blue' -n 'GoogleDot-Blue' -c 'Blue cursor theme inspired on Google with size 16'
+ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
 ```
 
 You can also customize output directory with `-o` option:
 
 ```bash
-ctgen build.toml -s 16 -p windows -d 'bitmaps/GoogleDot-Blue'-o 'out' -n 'GoogleDot-Blue' -c 'Blue cursor theme inspired on Google with size 16'
+ctgen build.toml -s 16 -p windows -d 'bitmaps/AdderDot-CloudKiss'-o 'out' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
 ```
 
 ##### Customize XCursor size
@@ -222,84 +208,90 @@ ctgen build.toml -s 16 -p windows -d 'bitmaps/GoogleDot-Blue'-o 'out' -n 'Google
 To build XCursor with size `16`:
 
 ```bash
-ctgen build.toml -s 16 -p x11 -d 'bitmaps/GoogleDot-Blue' -n 'GoogleDot-Blue' -c 'Blue cursor theme inspired on Google with size 16'
+ctgen build.toml -s 16 -p x11 -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
 ```
 
 You can also assign multiple sizes to `ctgen` for XCursors build:
 
 ```bash
-ctgen build.toml -s 16 24 32 -p x11 -d 'bitmaps/GoogleDot-Blue' -n 'GoogleDot-Blue' -c 'Blue cursor theme inspired on Google with size 16'
+ctgen build.toml -s 16 24 32 -p x11 -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
 ```
 
 #### Customize Colors
 
-To customize Google Cursor's color you have to install node dependencies with `yarn install` command.
+To customize Adder Cursor's color you have to install node dependencies with `yarn install` command.
 After installing dependencies you can customize the colors via `npx cbmp` Node CLI App which packed with
 [cbmp](https://github.com/ful1e5/cbmp) node package.
 
 ##### `yarn render` aberration
 
-Here are the default commands we used for generating the Google Cursor's bitmaps and packed them into `yarn render`:
+Here are the default commands we used for generating the Adder Cursor's bitmaps and packed them into `yarn render`:
 
 ```bash
-npx cbmp -d 'svg' -n 'GoogleDot-Blue' -bc '#4285F4' -oc '#FFFFFF'
-npx cbmp -d 'svg' -n 'GoogleDot-Black' -bc '#000000' -oc '#FFFFFF'
-npx cbmp -d 'svg' -n 'GoogleDot-White' -bc '#FFFFFF' -oc '#000000'
-npx cbmp -d 'svg' -n 'GoogleDot-Red' -bc '#FF0000' -oc '#FFFFFF'
+    npx cbmp -d 'svg' -n 'AdderDot-CloudKiss' -bc '#1ACCD9' -oc '#FFFFFF'
+    npx cbmp -d 'svg' -n 'AdderDot-SecretaryBlonde' -bc '#F9FC94' -oc '#051D2B'
+    npx cbmp -d 'svg' -n 'AdderDot-ElectricSheen' -bc '#99D5FF' -oc '#1E304C'
+    npx cbmp -d 'svg' -n 'AdderDot-LaurelLamina' -bc '#092120' -oc '#7DB38F'
+    npx cbmp -d 'svg' -n 'AdderDot-BarcalonaOxblood' -bc '#4C1E38' -oc '#CFD7E6'
 ```
 
 #### Examples
 
-Lets generate modern GoogleDot with green base color and black outline:
+Lets generate modern AdderDot with green base color and black outline:
 
 ```bash
-npx cbmp -d 'svg' -n 'GoogleDot-Hacker' -bc '#00FE00' -oc '#000000'
+npx cbmp -d 'svg' -n 'AdderDot-Hacker' -bc '#00FE00' -oc '#000000'
 ```
+<!-- 29-d14: damn! this would've been way easier than cloning the entire repo -->
 
 After rendering custom color you have to build cursor through `ctgen`:
 
 ```bash
-ctgen build.toml -d 'bitmaps/GoogleDot-Hacker' -n 'GoogleDot-Hacker' -c 'Green and black GoogleDot cursors.'
+ctgen build.toml -d 'bitmaps/AdderDot-Hacker' -n 'AdderDot-Hacker' -c 'Green and black Adder dot cursors.'
 ```
 
 Afterwards, Generated theme can be found in the `themes` directory.
 
-###### GoogleDot Gruvbox
+###### AdderDot Gruvbox
 
 ```bash
-npx cbmp -d 'svg' -n 'GoogleDot-Gruvbox' -bc '#282828' -oc '#EBDBB2'
-ctgen build.toml -d 'bitmaps/GoogleDot-Gruvbox' -n 'GoogleDot-Gruvbox' -c 'Groovy GoogleDot cursors.'
+npx cbmp -d 'svg' -n 'AdderDot-Gruvbox' -bc '#282828' -oc '#EBDBB2'
+ctgen build.toml -d 'bitmaps/AdderDot-Gruvbox' -n 'AdderDot-Gruvbox' -c 'Groovy Adder dot cursors.'
+``` <!-- 29-d14: oh, shit, I get the joke now. I've been saying it like "gr-uhhv" -->
+
+###### AdderDot Solarized Dark
+
+```bash
+npx cbmp -d 'svg' -n 'AdderDot-Solarized-Dark' -bc '#002b36' -oc '#839496'
+ctgen build.toml -d 'bitmaps/AdderDot-Solarized-Dark' -n 'AdderDot-Solarized-Dark' -c 'Solarized Dark Adder dot cursors.'
 ```
 
-###### GoogleDot Solarized Dark
+###### AdderDot Solarized Light
 
 ```bash
-npx cbmp -d 'svg' -n 'GoogleDot-Solarized-Dark' -bc '#002b36' -oc '#839496'
-ctgen build.toml -d 'bitmaps/GoogleDot-Solarized-Dark' -n 'GoogleDot-Solarized-Dark' -c 'Solarized Dark GoogleDot cursors.'
+npx cbmp -d 'svg' -n 'AdderDot-Solarized-Light' -bc '#839496' -oc '#002b36'
+ctgen build.toml -d 'bitmaps/AdderDot-Solarized-Light' -n 'AdderDot-Solarized-Light' -c 'Solarized Light Adder dot cursors.
 ```
 
-###### GoogleDot Solarized Light
+###### AdderDot Dracula
 
 ```bash
-npx cbmp -d 'svg' -n 'GoogleDot-Solarized-Light' -bc '#839496' -oc '#002b36'
-ctgen build.toml -d 'bitmaps/GoogleDot-Solarized-Light' -n 'GoogleDot-Solarized-Light' -c 'Solarized Light GoogleDot cursors.'
-```
-
-###### GoogleDot Dracula
-
-```bash
-npx cbmp -d 'svg' -n 'GoogleDot-Dracula' -bc '#282a36' -oc '#f8f8f2'
-ctgen build.toml -d 'bitmaps/GoogleDot-Dracula' -n 'GoogleDot-Dracula' -c 'Dracula GoogleDot cursors.'
+npx cbmp -d 'svg' -n 'AdderDot-Dracula' -bc '#282a36' -oc '#f8f8f2'
+ctgen build.toml -d 'bitmaps/AdderDot-Dracula' -n 'AdderDot-Dracula' -c 'Dracula Adder dot cursors.'
 ```
 
 # Bugs
 
-Bugs should be reported [here](https://github.com/ful1e5/Google_Cursor/issues) on the Github issues page.
+Bugs should be reported [here](https://github.com/submersible-technologies/Adder_Cursor/issues) on the Github issues page.
 
 # Getting Help
 
-You can create a **issue**, I will help you.
+You create an issue, we'll help you. Security Drone 29-d14, at your service!
 
 # Contributing
 
 Check [CONTRIBUTING.md](CONTRIBUTING.md), any suggestions for features and contributions to the continuing code masterelopment can be made via the issue tracker or code contributions via a `Fork` & `Pull requests`.
+
+# What the hell even is 'Adder Industries', anyway?
+
+I don't think I can discuss that here. If you can find us, you'll fit right in 😉

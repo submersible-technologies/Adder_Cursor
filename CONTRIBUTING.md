@@ -1,6 +1,6 @@
-# Contributing to Google Cursor
+# Contributing to Adder Cursor
 
-I love your input! I want to make contributing to this project as easy and transparent as possible, whether it's:
+We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
 - Reporting a bug
 - Discussing the current state of the code
@@ -8,11 +8,11 @@ I love your input! I want to make contributing to this project as easy and trans
 - Proposing new features
 - Becoming a maintainer
 
-## I Develop with Github
+## We Develop with Github
 
-I use github to host code, to track issues and feature requests, as well as accept pull requests.
+We use github to host code, to track issues and feature requests, as well as accept pull requests.
 
-## I Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
+## We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
 
 Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). We actively welcome your pull requests:
 
@@ -25,14 +25,15 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 
 In short, when you submit code changes, your submissions are understood to be under the same [GPL - 3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html) that covers the project. Feel free to contact the maintainers if that's a concern.
 
-## Report bugs using Github's [issues](https://github.com/ful1e5/Google_Cursor/issues)
+## Report bugs using Github's [issues](https://github.com/fsubmersible-technologies/Adder_Cursor/issues)
 
-I use GitHub issues to track public bugs. Report a bug by opening a new issue, it's that easy!
+We use GitHub issues to track public bugs. Report a bug by opening a new issue, it's that easy!
 
 ## Write bug reports with detail, background, and sample code
 
 **Great Bug Reports** tend to have:
 
+- **NO AI-GENERATED CONTENT!** We'll find you.
 - A quick summary and/or background
 - Steps to reproduce
   - Be specific!
@@ -41,7 +42,7 @@ I use GitHub issues to track public bugs. Report a bug by opening a new issue, i
 - What actually happens
 - Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
 
-People _love_ thorough bug reports. I'm not even kidding.
+People _love_ thorough bug reports. We're not even kidding. I'll kiss you right on the mouth.
 
 ## License
 

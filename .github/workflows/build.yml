@@ -38,14 +38,17 @@ jobs:
       - name: Fixing 'attr' module error
         run: pip install --force-reinstall --upgrade attrs
 
-      - name: Building `GoogleDot Blue` Cursors
-        run: ctgen build.toml -d 'bitmaps/GoogleDot-Blue' -n 'GoogleDot-Blue' -c 'Blue cursor theme inspired on Google'
+      - name: Building `AdderDot CloudKiss` Cursors
+        run: ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
 
-      - name: Building `GoogleDot White` Cursors
-        run: ctgen build.toml -d 'bitmaps/GoogleDot-White' -n 'GoogleDot-White' -c 'White cursor theme inspired on Google'
+      - name: Building `AdderDot SecretaryBlonde` Cursors
+        run: ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde → Deep Blue-Green dot cursor, inspired by Adder Inds.'
 
-      - name: Building `GoogleDot Black` Cursors
-        run: ctgen build.toml -d 'bitmaps/GoogleDot-Black' -n 'GoogleDot-Black' -c 'Black cursor theme inspired on Google'
+      - name: Building `AdderDot ElectricSheen` Cursors
+        run: ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake → Deep Sea Blue dot cursor, inspired by Adder Inds.'
 
-      - name: Building `GoogleDot Red` Cursors
-        run: ctgen build.toml -d 'bitmaps/GoogleDot-Red' -n 'GoogleDot-Red' -c 'Red cursor theme inspired on Google'
+      - name: Building `AdderDot LaurelLamina` Cursors
+        run: ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald → Laurel Green dot cursor, inspired by Adder Inds.'
+
+      - name: Building `AdderDot BarcalonaOxblood` Cursors
+        run: ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood → Tearsoaked White dot cursor, inspired by Adder Inds.'

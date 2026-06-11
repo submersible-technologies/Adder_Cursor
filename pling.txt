@@ -1,6 +1,6 @@
-An OpenSource cursor theme inspired by Google for Linux and Windows.
+An open-source dot-cursor theme, inspired by Adder Inds. Original "Google_Cursor" by ful1e5.
 
-Check [url=https://github.com/ful1e5/Google_Cursor]README.md[/url] for installation, uninstallation, personalize cursor sizes or colors.
+Check [url=https://github.com/fsubmersible-technologies/Adder_Cursor]README.md[/url] for installation, uninstallation, personalize cursor sizes or colors.
 
 [b]XCursor Sizes:[/b]
 22x22, 24x24, 28x28, 32x32, 40x40, 48x48, 56x56, 64x64, 72x72, 80x80, 88x88, 96x96
@@ -12,4 +12,4 @@ Check [url=https://github.com/ful1e5/Google_Cursor]README.md[/url] for installat
 - 48x48 - Extra Large
 
 [b]License & Terms:[/b]
-'Google_Cursor' is available under the terms of the 'GPL-3.0' license.
+'Adder_Cursor' is available under the terms of the 'GPL-3.0' license.

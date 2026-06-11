@@ -3,15 +3,18 @@
     "cbmp": "ful1e5/cbmp"
   },
   "scripts": {
-    "render:googledot-blue": "npx cbmp -d 'svg' -n 'GoogleDot-Blue' -bc '#4285F4' -oc '#FFFFFF'",
-    "render:googledot-black": "npx cbmp -d 'svg' -n 'GoogleDot-Black' -bc '#000000' -oc '#FFFFFF'",
-    "render:googledot-white": "npx cbmp -d 'svg' -n 'GoogleDot-White' -bc '#FFFFFF' -oc '#000000'",
-    "render:googledot-red": "npx cbmp -d 'svg' -n 'GoogleDot-Red' -bc '#FF0000' -oc '#FFFFFF'",
-    "render": "yarn render:googledot-blue && yarn render:googledot-black && yarn render:googledot-white && yarn render:googledot-red",
-    "build:googledot-blue": "ctgen build.toml -d 'bitmaps/GoogleDot-Blue' -n 'GoogleDot-Blue' -c 'Blue cursor theme inspired on Google'",
-    "build:googledot-black": "ctgen build.toml -d 'bitmaps/GoogleDot-Black' -n 'GoogleDot-Black' -c 'Black cursor theme inspired on Google'",
-    "build:googledot-white": "ctgen build.toml -d 'bitmaps/GoogleDot-White' -n 'GoogleDot-White' -c 'White cursor theme inspired on Google'",
-    "build:googledot-red": "ctgen build.toml -d 'bitmaps/GoogleDot-Red' -n 'GoogleDot-Red' -c 'Red cursor theme inspired on Google'",
-    "build": "yarn build:googledot-blue && yarn build:googledot-black && yarn build:googledot-white && yarn build:googledot-red"
+    "render:addercursor-cloudkiss": "npx cbmp -d 'svg' -n 'AdderDot-CloudKiss' -bc '#1ACCD9' -oc '#FFFFFF'",
+    "render:addercursor-secretaryblonde": "npx cbmp -d 'svg' -n 'AdderDot-SecretaryBlonde' -bc '#F9FC94' -oc '#051D2B'",
+    "render:addercursor-electricsheen": "npx cbmp -d 'svg' -n 'AdderDot-ElectricSheen' -bc '#99D5FF' -oc '#1E304C'",
+    "render:addercursor-laurellamina": "npx cbmp -d 'svg' -n 'AdderDot-LaurelLamina' -bc '#092120' -oc '#7DB38F'",
+    "render:addercursor-barcalonaoxblood": "npx cbmp -d 'svg' -n 'AdderDot-BarcalonaOxblood' -bc '#4C1E38' -oc '#CFD7E6'",
+    "render": "yarn render:addercursor-cloudkiss && yarn render:addercursor-secretaryblonde && yarn render:addercursor-electricsheen && yarn render:addercursor-laurellamina && yarn render:addercursor-barcalonaoxblood",
+    
+    "build:addercursor-cloudkiss": "ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'",
+    "build:addercursor-secretaryblonde": "ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde → Deep Blue-Green dot cursor, inspired by Adder Inds.'",
+    "build:addercursor-electricsheen": "ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake → Deep Sea Blue dot cursor, inspired by Adder Inds.'",
+    "build:addercursor-laurellamina": "ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald → Laurel Green dot cursor, inspired by Adder Inds.'",
+    "build:addercursor-barcalonaoxblood": "ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood → Tearsoaked White dot cursor, inspired by Adder Inds.'",
+    "build": "yarn build:addercursor-cloudkiss && yarn build:addercursor-secretaryblonde && yarn build:addercursor-electricsheen && yarn build:addercursor-laurellamina && yarn build:addercursor-barcalonaoxblood"
   }
 }

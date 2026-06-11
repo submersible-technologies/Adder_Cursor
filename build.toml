@@ -1,7 +1,7 @@
 [theme]
-name = 'Google Cursor'
-comment = 'An opensource cursor theme inspired by Google.'
-website = 'https://github.com/ful1e5/Google_Cursor'
+name = 'Adder Cursor'
+comment = 'An open-source dot-cursor theme, inspired by Adder Inds. Original "Google_Cursor" by ful1e5.'
+website = 'https://github.com/fsubmersible-technologies/Adder_Cursor'
 
 [config]
 bitmaps_dir = '' # This config will assigned with `ctgen -d <path>`
