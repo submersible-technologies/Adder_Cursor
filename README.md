@@ -1,6 +1,10 @@
 # Adder Cursor
 
-An open-source dot-cursor theme, inspired by Adder Inds. Original "Google_Cursor" by ful1e5.
+An open-source dot-cursor theme, inspired by Adder Industries.
+
+Each cursor theme is directly color-picked from the original story.
+
+*Original "Google_Cursor" by ful1e5.*
 
 ## Notes
 
