@@ -165,16 +165,16 @@ First make sure you installed the [build prerequisites](#build-prerequisites).
 Now that you have the dependencies, you can try build individual themes from bitmaps and
 customize sizes, target platform, and etc. with the `ctgen` CLI (packed with `clickgen`).
 
-#### `yarn build` aberration
+#### `yarn build` commands
 
 Here are the default commands we used to build the Adder Cursor's variants and packed them into `yarn build`:
 
 ```bash
-    ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
-    ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde → Deep Blue-Green dot cursor, inspired by Adder Inds.'
-    ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake → Deep Sea Blue dot cursor, inspired by Adder Inds.'
-    ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald → Laurel Green dot cursor, inspired by Adder Inds.'
-    ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood → Tearsoaked White dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde → Deep Blue-Green dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake → Deep Sea Blue dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald → Laurel Green dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood → Tearsoaked White dot cursor, inspired by Adder Inds.'
 ```
 
 Afterwards, the themes can be found in the `themes` directory.
@@ -228,11 +228,11 @@ After installing dependencies you can customize the colors via `npx cbmp` Node C
 Here are the default commands we used for generating the Adder Cursor's bitmaps and packed them into `yarn render`:
 
 ```bash
-    npx cbmp -d 'svg' -n 'AdderDot-CloudKiss' -bc '#1ACCD9' -oc '#FFFFFF'
-    npx cbmp -d 'svg' -n 'AdderDot-SecretaryBlonde' -bc '#F9FC94' -oc '#051D2B'
-    npx cbmp -d 'svg' -n 'AdderDot-ElectricSheen' -bc '#99D5FF' -oc '#1E304C'
-    npx cbmp -d 'svg' -n 'AdderDot-LaurelLamina' -bc '#092120' -oc '#7DB38F'
-    npx cbmp -d 'svg' -n 'AdderDot-BarcalonaOxblood' -bc '#4C1E38' -oc '#CFD7E6'
+npx cbmp -d 'svg' -n 'AdderDot-CloudKiss' -bc '#1ACCD9' -oc '#FFFFFF'#1e304c
+npx cbmp -d 'svg' -n 'AdderDot-SecretaryBlonde' -bc '#F9FC94' -oc '#051D2B'
+npx cbmp -d 'svg' -n 'AdderDot-ElectricSheen' -bc '#99D5FF' -oc '#1E304C'
+npx cbmp -d 'svg' -n 'AdderDot-LaurelLamina' -bc '#092120' -oc '#7DB38F'
+npx cbmp -d 'svg' -n 'AdderDot-BarcalonaOxblood' -bc '#4C1E38' -oc '#CFD7E6'
 ```
 
 #### Examples
@@ -257,7 +257,8 @@ Afterwards, Generated theme can be found in the `themes` directory.
 ```bash
 npx cbmp -d 'svg' -n 'AdderDot-Gruvbox' -bc '#282828' -oc '#EBDBB2'
 ctgen build.toml -d 'bitmaps/AdderDot-Gruvbox' -n 'AdderDot-Gruvbox' -c 'Groovy Adder dot cursors.'
-``` <!-- 29-d14: oh, shit, I get the joke now. I've been saying it like "gr-uhhv" -->
+``` 
+<!-- 29-d14: ohhhh, I've been saying it like "gr-uhhv" -->
 
 ###### AdderDot Solarized Dark
 
