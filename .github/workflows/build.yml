@@ -32,7 +32,7 @@ jobs:
 
       - uses: actions/setup-node@v6
         with:
-          node-version: '14'
+          node-version: '24'
 
       - name: Installing pip dependencies
         run: python -m pip install --upgrade pip clickgen
