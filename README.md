@@ -9,7 +9,9 @@ An open-source dot-cursor theme, inspired by Adder Inds. Original "Google_Cursor
 
 ---
 
-*todo: cursor preview goes here*
+*todo: better cursor preview. these are just mockups from GIMP*
+
+![Preview](Media/QuickNDirtyPreview.png)
 <!-- 
 ![AdderDot Blue](https://imgur.com/osnWiED.png)
 ![AdderDot Black](https://i.imgur.com/9ZlC1gD.png)
