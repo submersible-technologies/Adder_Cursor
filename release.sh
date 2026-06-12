@@ -2,11 +2,11 @@
 # A script for preparing binaries for version release of Adder Cursors, modified by 29-d14, original by Abdulkaiz Khatri
 
 declare -A names
-names["AdderDot-CloudKiss"]="Cerulian → White dot cursor, inspired by Adder Inds."
-names["AdderDot-SecretaryBlonde"]="Pale Blonde → Deep Blue-Green dot cursor, inspired by Adder Inds."
-names["AdderDot-ElectricSheen"]="Azure Lake → Deep Sea Blue dot cursor, inspired by Adder Inds."
-names["AdderDot-LaurelLamina"]="Deep Emerald → Laurel Green dot cursor, inspired by Adder Inds."
-names["AdderDot-BarcalonaOxblood"]="Oxblood → Tearsoaked White dot cursor, inspired by Adder Inds."
+names["AdderDot-CloudKiss"]="Cerulian => White dot cursor, inspired by Adder Inds."
+names["AdderDot-SecretaryBlonde"]="Pale Blonde => Deep Blue-Green dot cursor, inspired by Adder Inds."
+names["AdderDot-ElectricSheen"]="Azure Lake => Deep Sea Blue dot cursor, inspired by Adder Inds."
+names["AdderDot-LaurelLamina"]="Deep Emerald => Laurel Green dot cursor, inspired by Adder Inds."
+names["AdderDot-BarcalonaOxblood"]="Oxblood => Tearsoaked White dot cursor, inspired by Adder Inds."
 
 
 # Cleanup old builds

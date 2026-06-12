@@ -11,12 +11,12 @@
 
     "render": "yarn render:addercursor-cloudkiss && yarn render:addercursor-secretaryblonde && yarn render:addercursor-electricsheen && yarn render:addercursor-laurellamina && yarn render:addercursor-barcalonaoxblood",
     
-    "build:addercursor-cloudkiss": "ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'",
-    "build:addercursor-secretaryblonde": "ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde → Deep Blue-Green dot cursor, inspired by Adder Inds.'",
-    "build:addercursor-electricsheen": "ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake → Deep Sea Blue dot cursor, inspired by Adder Inds.'",
-    "build:addercursor-laurellamina": "ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald → Laurel Green dot cursor, inspired by Adder Inds.'",
-    "build:addercursor-barcalonaoxblood": "ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood → Tearsoaked White dot cursor, inspired by Adder Inds.'",
-    
+    "build:addercursor-cloudkiss": "ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian => White dot cursor, inspired by Adder Inds.'",
+    "build:addercursor-secretaryblonde": "ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde => Deep Blue-Green dot cursor, inspired by Adder Inds.'",
+    "build:addercursor-electricsheen": "ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake => Deep Sea Blue dot cursor, inspired by Adder Inds.'",
+    "build:addercursor-laurellamina": "ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald => Laurel Green dot cursor, inspired by Adder Inds.'",
+    "build:addercursor-barcalonaoxblood": "ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood => Tearsoaked White dot cursor, inspired by Adder Inds.'",
+
     "build": "yarn build:addercursor-cloudkiss && yarn build:addercursor-secretaryblonde && yarn build:addercursor-electricsheen && yarn build:addercursor-laurellamina && yarn build:addercursor-barcalonaoxblood"
   }
 }

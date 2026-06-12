@@ -43,16 +43,16 @@ jobs:
         run: pip install --force-reinstall --upgrade attrs
 
       - name: Building `AdderDot CloudKiss` Cursors
-        run: ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
+        run: ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian => White dot cursor, inspired by Adder Inds.'
 
       - name: Building `AdderDot SecretaryBlonde` Cursors
-        run: ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde → Deep Blue-Green dot cursor, inspired by Adder Inds.'
+        run: ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde => Deep Blue-Green dot cursor, inspired by Adder Inds.'
 
       - name: Building `AdderDot ElectricSheen` Cursors
-        run: ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake → Deep Sea Blue dot cursor, inspired by Adder Inds.'
+        run: ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake => Deep Sea Blue dot cursor, inspired by Adder Inds.'
 
       - name: Building `AdderDot LaurelLamina` Cursors
-        run: ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald → Laurel Green dot cursor, inspired by Adder Inds.'
+        run: ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald => Laurel Green dot cursor, inspired by Adder Inds.'
 
       - name: Building `AdderDot BarcalonaOxblood` Cursors
-        run: ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood → Tearsoaked White dot cursor, inspired by Adder Inds.'
+        run: ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood => Tearsoaked White dot cursor, inspired by Adder Inds.'

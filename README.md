@@ -170,11 +170,11 @@ customize sizes, target platform, and etc. with the `ctgen` CLI (packed with `cl
 Here are the default commands we used to build the Adder Cursor's variants and packed them into `yarn build`:
 
 ```bash
-ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
-ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde → Deep Blue-Green dot cursor, inspired by Adder Inds.'
-ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake → Deep Sea Blue dot cursor, inspired by Adder Inds.'
-ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald → Laurel Green dot cursor, inspired by Adder Inds.'
-ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood → Tearsoaked White dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian => White dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-SecretaryBlonde' -n 'AdderDot-SecretaryBlonde' -c 'Pale Blonde => Deep Blue-Green dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-ElectricSheen' -n 'AdderDot-ElectricSheen' -c 'Azure Lake => Deep Sea Blue dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-LaurelLamina' -n 'AdderDot-LaurelLamina' -c 'Deep Emerald => Laurel Green dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-BarcalonaOxblood' -n 'AdderDot-BarcalonaOxblood' -c 'Oxblood => Tearsoaked White dot cursor, inspired by Adder Inds.'
 ```
 
 Afterwards, the themes can be found in the `themes` directory.
@@ -194,13 +194,13 @@ To build Windows cursor with size `16`:
 > be considered in build.
 
 ```bash
-ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
+ctgen build.toml -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian => White dot cursor, inspired by Adder Inds.'
 ```
 
 You can also customize output directory with `-o` option:
 
 ```bash
-ctgen build.toml -s 16 -p windows -d 'bitmaps/AdderDot-CloudKiss'-o 'out' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
+ctgen build.toml -s 16 -p windows -d 'bitmaps/AdderDot-CloudKiss'-o 'out' -n 'AdderDot-CloudKiss' -c 'Cerulian => White dot cursor, inspired by Adder Inds.'
 ```
 
 ##### Customize XCursor size
@@ -208,13 +208,13 @@ ctgen build.toml -s 16 -p windows -d 'bitmaps/AdderDot-CloudKiss'-o 'out' -n 'Ad
 To build XCursor with size `16`:
 
 ```bash
-ctgen build.toml -s 16 -p x11 -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
+ctgen build.toml -s 16 -p x11 -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian => White dot cursor, inspired by Adder Inds.'
 ```
 
 You can also assign multiple sizes to `ctgen` for XCursors build:
 
 ```bash
-ctgen build.toml -s 16 24 32 -p x11 -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian → White dot cursor, inspired by Adder Inds.'
+ctgen build.toml -s 16 24 32 -p x11 -d 'bitmaps/AdderDot-CloudKiss' -n 'AdderDot-CloudKiss' -c 'Cerulian => White dot cursor, inspired by Adder Inds.'
 ```
 
 #### Customize Colors
